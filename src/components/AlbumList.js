@@ -21,7 +21,7 @@ class AlbumList extends Component {
 
     render() {
         console.log(this.state);
-        console.log('dfsfsdf');
+        console.log('dfskfsdf');
         return (
             <ScrollView>
                 { this.renderAlbums() }
