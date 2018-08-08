@@ -7,7 +7,7 @@ class AlbumList extends Component {
     state = { albums: [] };
 
     componentWillMount() {
-        console.log('willMount in AlbumsList !!!!');
+        console.log('willMount in AlbucmsList !!!!');
         axios.get('https://rallycoding.herokuapp.com/api/music_albums')
             .then((response) => this.setState({ albums: response.data }));
     }
